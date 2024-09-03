@@ -1,4 +1,4 @@
 #!/bin/bash
 
 # volume down
-exec amixer -D pulse sset Master 5%- 
+amixer -D pulse sset Master 5%- 
